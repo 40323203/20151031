@@ -29,6 +29,7 @@
 <v t="2015cp.20151105175837.1"><vh>@edit 2015cphww4.md</vh></v>
 <v t="2015cp.20151105180121.1"><vh>@edit 2015cphww5.md</vh></v>
 <v t="2015cp.20151118135956.1"><vh>@edit 2015cphww7.md</vh></v>
+<v t="2015cp.20151118150155.1"><vh>@edit 2015cphww8.md</vh></v>
 <v t="amd.20150920000911.1"><vh>@edit 2015cpnote1.md</vh></v>
 </v>
 </v>
@@ -295,7 +296,7 @@
 </v>
 </v>
 </v>
-<v t="amd.20150915211341.1"><vh>@clean simplest.html</vh>
+<v t="amd.20150915211341.1" a="E"><vh>@clean simplest.html</vh>
 <v t="amd.20150917085040.1"><vh>檔案說明</vh></v>
 <v t="amd.20150915211351.1" a="E"><vh>html 標註</vh>
 <v t="amd.20150915211351.4" a="E"><vh>body 標註</vh>
@@ -310,7 +311,7 @@
 </v>
 </v>
 </v>
-<v t="2015cp.20151105175757.1"><vh>@clean simplest2.html</vh>
+<v t="2015cp.20151105175757.1" a="E"><vh>@clean simplest2.html</vh>
 <v t="2015cp.20151105175757.2"><vh>檔案說明</vh></v>
 <v t="2015cp.20151105175757.3" a="E"><vh>html 標註</vh>
 <v t="2015cp.20151105175757.4" a="E"><vh>body 標註</vh>
@@ -325,7 +326,7 @@
 </v>
 </v>
 </v>
-<v t="2015cp.20151105180049.1"><vh>@clean simplest3.html</vh>
+<v t="2015cp.20151105180049.1" a="E"><vh>@clean simplest3.html</vh>
 <v t="2015cp.20151105180049.2"><vh>檔案說明</vh></v>
 <v t="2015cp.20151105180049.3" a="E"><vh>html 標註</vh>
 <v t="2015cp.20151105180049.4" a="E"><vh>body 標註</vh>
@@ -500,10 +501,10 @@
 </t>
 <t tx="2015cp.20151105175757.8">&lt;section id="hw-task-one"&gt;
     &lt;h1&gt;步驟簡單說明&lt;/h1&gt;
-    &lt;p&gt;1.至http://wordpress-2015course.rhcloud.com/ 下載solvespace&lt;/p&gt;
-    &lt;p&gt;2.之後進入solvespace網站點選Tutorials&lt;/p&gt;
-     &lt;p&gt;3.再點選 introductory tutorial&lt;/p&gt;
-     &lt;p&gt;4.進入後即可按照步驟畫出零件&lt;/p&gt;
+&lt;p align="left"&gt;1.至http://wordpress-2015course.rhcloud.com/ 下載solvespace&lt;/p&gt;
+&lt;p align="left"&gt;2.之後進入solvespace網站點選Tutorials&lt;/p&gt;
+&lt;p align="left"&gt;3.再點選 introductory tutorial&lt;/p&gt;
+&lt;p align="left"&gt;4.進入後即可按照步驟畫出零件&lt;/p&gt;
 &lt;/section&gt;
 				
 </t>
@@ -574,10 +575,10 @@
 </t>
 <t tx="2015cp.20151105180049.8">&lt;section id="hw-task-one"&gt;
     &lt;h1&gt;步驟簡單說明&lt;/h1&gt;
-    &lt;p&gt;1.至電腦教室將creo2_64bit複製到自備硬碟&lt;/p&gt;
-    &lt;p&gt;2.至資料夾選Parametric裡的bin&lt;/p&gt;    
-    &lt;p&gt;3.進入後可選擇parametric.bat(英文版)或parametric.exe(中文版)&lt;/p&gt;
-    &lt;p&gt;4.點進去後要先畫出零件才能組合起來&lt;/p&gt;
+&lt;p align="left"&gt;1.至電腦教室將creo2_64bit複製到自備硬碟&lt;/p&gt;
+&lt;p align="left"&gt;2.至資料夾選Parametric裡的bin&lt;/p&gt;    
+&lt;p align="left"&gt;3.進入後可選擇parametric.bat(英文版)或parametric.exe(中文版)&lt;/p&gt;
+&lt;p align="left"&gt;4.點進去後要先畫出零件才能組合起來&lt;/p&gt;
 &lt;/section&gt;
 				
 </t>
@@ -1982,9 +1983,9 @@ Code syntax highlighting courtesy of &lt;a href="http://softwaremaniacs.org/soft
 </t>
 <t tx="amd.20150915211351.9">&lt;section id="hw-task-one"&gt;
     &lt;h1&gt;步驟簡單說明&lt;/h1&gt;
-    &lt;p&gt;1.下載gitthub和Ana3資料夾&lt;/p&gt;
-    &lt;p&gt;2.到leo打開資料夾之後修改&lt;/p&gt;
-     &lt;p&gt;3.建立分支之後再推回去&lt;/p&gt;
+&lt;p align="left"&gt;1.下載gitthub和Ana3資料夾&lt;/p&gt;
+&lt;p align="left"&gt;2.到leo打開資料夾之後修改&lt;/p&gt;
+&lt;p align="left"&gt;3.建立分支之後再推回去&lt;/p&gt;
 &lt;/section&gt;
 				
 </t>
