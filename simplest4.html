@@ -1,0 +1,74 @@
+<!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 <section></section> 標示
+且支援平行與垂直的投影片配置方法
+-->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>最簡單的 reveal 超文件</title>
+<link rel="stylesheet" href="css/reveal.min.css">
+	<link rel="stylesheet" href="css/theme/default.css" id="theme">	
+	<!--增加對於 IE 早期版本的支援 -->
+	<!--[if lt IE 9]>
+	<script src="lib/js/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<body>
+<!-- 將整個投影片包在 "reveal" class 中 -->
+<div class="reveal">
+<!-- 將所有投影片包在 "slides" class 中 -->
+<div class="slides">
+<!-- 以下為投影片 -->
+<!-- 每一個 section 都代表一張投影片,  -->
+<!-- section 標註中的多 section 標註, 將往下垂直延伸 -->
+<section>
+    <h1>四設計二乙</h1>
+    <p>40323203施郁琪</p>		
+</section>
+	
+<section id="hw-task-one">
+<p>1.打開Ana3_lite2後按start</p>
+<p>2.到cmd畫面cd tmp<p>
+<p>3.git clone https://github.com/2015fallhw/2015fallcadpb.git<p>
+<p>4.cd 2015fallcadpb<p>
+<p>5.git checkout gh-pages<p>
+<p>6.回倒Y槽按2015fallcadpb資料夾<p>
+<p>7.進去後按user資料夾裡面複製9999資料夾貼上後重新命名改為自己的學號<p>
+<p>8.進到自己學號的資料夾後再點進去Pelican裡面的content資料夾，將所有檔案刪除<p>
+<p>9.使用LEO Editor 打開班上倉儲的reveal檔<p>
+<p>10.copy @path 9999後 paste node 重新命名為@path 自己的學號<p>
+<p>11.進入剛剛修改的node 刪除檔名有9999的檔案<p>
+<p>12.到.py的檔案內修改9999為自己的學號<p>
+<p>13.開啟個人倉儲的reveal檔，分別複製投影片及各周的MD檔<p>
+<p>14.再分別貼至班上倉儲的檔案對應位置<p>
+<p>15.確認無誤後save 按一下自己學號的資料夾後再按 user pelican<p>
+<p>16.回到cmd的畫面 git add .<p>
+<p>17.git commit -m "40323203"<p>
+<p>18.git pull origin gh-pages<p>
+<p>19.git push origin gh-pages<p>
+<p>20.最後自己的網頁網址為http://2015fallhw.github.io/2015fallcadpb/user/自己的學號/<p>
+</section>
+				
+<section>
+    <h1>自評與心得</h1>
+    <p>自評分數:70</p>
+    <p>這一次是學習如何把自己的倉儲推回去班上的倉儲，步驟上覺得有點麻煩，因為在推回去的過程中還須考慮班上是不是還有人跟你一起在操作，所以就必須先git pull確認
+再確認，假如還有人在操作就會顯示對方的學號一直在推，而且還有一點就是班上有些人在git push之前沒有先git pull，這樣就會導致某些人在Leo裡的檔案會不見，雖然在連結學號的網頁是有作業的，可是在還沒繳交作業之前就會有所顧慮，深怕自己在Leo裡面的檔案不見了會不會怎樣，所以我覺得班上只要有人會，那就麻煩他們教班上這樣就不會導致有人的檔案被覆蓋了，當然也要有人去主動問，所以我這次花了很久的時間在研究作業，雖然還是覺得自己只是照著步驟而且，但是照一次至少我知道只要有一個步驟漏掉了，這樣班上的Leo就會打不開而爆炸，所以應該還是算有學習到一些東西。
+</p>
+</section>
+				
+</div>
+</div>
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.min.js"></script>
+<script>
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+</script>
+	
+</body>
+

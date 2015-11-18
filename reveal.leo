@@ -28,6 +28,7 @@
 <v t="amd.20150919114035.1"><vh>@edit 2015cphww1.md</vh></v>
 <v t="2015cp.20151105175837.1"><vh>@edit 2015cphww4.md</vh></v>
 <v t="2015cp.20151105180121.1"><vh>@edit 2015cphww5.md</vh></v>
+<v t="2015cp.20151118135956.1"><vh>@edit 2015cphww7.md</vh></v>
 <v t="amd.20150920000911.1"><vh>@edit 2015cpnote1.md</vh></v>
 </v>
 </v>
@@ -321,6 +322,21 @@
 </v>
 </v>
 </v>
+<v t="2015cp.20151118135717.1"><vh>@clean simplest4.html</vh>
+<v t="2015cp.20151118135717.2"><vh>檔案說明</vh></v>
+<v t="2015cp.20151118135717.3" a="E"><vh>html 標註</vh>
+<v t="2015cp.20151118135717.4" a="E"><vh>body 標註</vh>
+<v t="2015cp.20151118135717.5" a="E"><vh>div class="reveal"</vh>
+<v t="2015cp.20151118135717.6" a="E"><vh>div class="slides"</vh>
+<v t="2015cp.20151118135717.7"><vh>有關我的作業</vh></v>
+<v t="2015cp.20151118135717.8"><vh>作業任務一</vh></v>
+<v t="2015cp.20151118135717.9"><vh>第3張投影片</vh></v>
+</v>
+</v>
+<v t="2015cp.20151118135717.10"><vh>script</vh></v>
+</v>
+</v>
+</v>
 <v t="amd.20150915170743.1"><vh>@clean v31ref.html</vh>
 <v t="amd.20150915170743.2" a="E"><vh>html 標註</vh>
 <v t="amd.20150915170743.3"><vh>head</vh></v>
@@ -566,6 +582,97 @@
     &lt;h1&gt;自評與心得&lt;/h1&gt;
     &lt;p&gt;自評分數:70&lt;/p&gt;
     &lt;p&gt;剛開始接觸到Creo時覺得此軟體很像inventor，在操作標註尺寸、擠出材料等等都覺得蠻方便的，後來在組合時才發現並沒有想像中簡單，光對中心軸對面就用很久，因為一不小心可能就按成確定了，雖然方便不過還是會有小小缺點，不過這個軟體在市面上必較常用，另外我也錄製了影片，因為我覺得教學影片可以讓人快速進入課程也易了解，所以我藉由課程學習到了新軟體，同時也體會了錄製影片的辛苦需要重複再重複的體驗過才會有完美的成果。&lt;/p&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx="2015cp.20151118135717.1">@language xml
+@tabwidth -4
+@others
+
+</t>
+<t tx="2015cp.20151118135717.10">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+&lt;/script&gt;
+	
+</t>
+<t tx="2015cp.20151118135717.2">&lt;!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
+且支援平行與垂直的投影片配置方法
+--&gt;
+</t>
+<t tx="2015cp.20151118135717.3">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;最簡單的 reveal 超文件&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+@others
+</t>
+<t tx="2015cp.20151118135717.4">&lt;body&gt;
+@others
+&lt;/body&gt;
+</t>
+<t tx="2015cp.20151118135717.5">&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+&lt;div class="reveal"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="2015cp.20151118135717.6">&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="2015cp.20151118135717.7">&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;section&gt;
+    &lt;h1&gt;四設計二乙&lt;/h1&gt;
+    &lt;p&gt;40323203施郁琪&lt;/p&gt;		
+&lt;/section&gt;
+	
+</t>
+<t tx="2015cp.20151118135717.8">&lt;section id="hw-task-one"&gt;
+&lt;p&gt;1.打開Ana3_lite2後按start&lt;/p&gt;
+&lt;p&gt;2.到cmd畫面cd tmp&lt;p&gt;
+&lt;p&gt;3.git clone https://github.com/2015fallhw/2015fallcadpb.git&lt;p&gt;
+&lt;p&gt;4.cd 2015fallcadpb&lt;p&gt;
+&lt;p&gt;5.git checkout gh-pages&lt;p&gt;
+&lt;p&gt;6.回倒Y槽按2015fallcadpb資料夾&lt;p&gt;
+&lt;p&gt;7.進去後按user資料夾裡面複製9999資料夾貼上後重新命名改為自己的學號&lt;p&gt;
+&lt;p&gt;8.進到自己學號的資料夾後再點進去Pelican裡面的content資料夾，將所有檔案刪除&lt;p&gt;
+&lt;p&gt;9.使用LEO Editor 打開班上倉儲的reveal檔&lt;p&gt;
+&lt;p&gt;10.copy @path 9999後 paste node 重新命名為@path 自己的學號&lt;p&gt;
+&lt;p&gt;11.進入剛剛修改的node 刪除檔名有9999的檔案&lt;p&gt;
+&lt;p&gt;12.到.py的檔案內修改9999為自己的學號&lt;p&gt;
+&lt;p&gt;13.開啟個人倉儲的reveal檔，分別複製投影片及各周的MD檔&lt;p&gt;
+&lt;p&gt;14.再分別貼至班上倉儲的檔案對應位置&lt;p&gt;
+&lt;p&gt;15.確認無誤後save 按一下自己學號的資料夾後再按 user pelican&lt;p&gt;
+&lt;p&gt;16.回到cmd的畫面 git add .&lt;p&gt;
+&lt;p&gt;17.git commit -m "40323203"&lt;p&gt;
+&lt;p&gt;18.git pull origin gh-pages&lt;p&gt;
+&lt;p&gt;19.git push origin gh-pages&lt;p&gt;
+&lt;p&gt;20.最後自己的網頁網址為http://2015fallhw.github.io/2015fallcadpb/user/自己的學號/&lt;p&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx="2015cp.20151118135717.9">&lt;section&gt;
+    &lt;h1&gt;自評與心得&lt;/h1&gt;
+    &lt;p&gt;自評分數:70&lt;/p&gt;
+    &lt;p&gt;這一次是學習如何把自己的倉儲推回去班上的倉儲，步驟上覺得有點麻煩，因為在推回去的過程中還須考慮班上是不是還有人跟你一起在操作，所以就必須先git pull確認
+再確認，假如還有人在操作就會顯示對方的學號一直在推，而且還有一點就是班上有些人在git push之前沒有先git pull，這樣就會導致某些人在Leo裡的檔案會不見，雖然在連結學號的網頁是有作業的，可是在還沒繳交作業之前就會有所顧慮，深怕自己在Leo裡面的檔案不見了會不會怎樣，所以我覺得班上只要有人會，那就麻煩他們教班上這樣就不會導致有人的檔案被覆蓋了，當然也要有人去主動問，所以我這次花了很久的時間在研究作業，雖然還是覺得自己只是照著步驟而且，但是照一次至少我知道只要有一個步驟漏掉了，這樣班上的Leo就會打不開而爆炸，所以應該還是算有學習到一些東西。
+&lt;/p&gt;
 &lt;/section&gt;
 				
 </t>
